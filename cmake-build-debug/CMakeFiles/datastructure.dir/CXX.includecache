@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/duchunhui/CLionProjects/datastructure/linkQueue.hpp
+stdio.h
+-
+queue.hpp
+/Users/duchunhui/CLionProjects/datastructure/queue.hpp
+
+/Users/duchunhui/CLionProjects/datastructure/priorityQueue.hpp
+stdio.h
+-
+queue.hpp
+/Users/duchunhui/CLionProjects/datastructure/queue.hpp
+
+/Users/duchunhui/CLionProjects/datastructure/queue.hpp
+stdio.h
+-
+
+/Users/duchunhui/CLionProjects/datastructure/simulator.cpp
+simulator.h
+/Users/duchunhui/CLionProjects/datastructure/simulator.h
+linkQueue.hpp
+/Users/duchunhui/CLionProjects/datastructure/linkQueue.hpp
+priorityQueue.hpp
+/Users/duchunhui/CLionProjects/datastructure/priorityQueue.hpp
+iostream
+-
+
+/Users/duchunhui/CLionProjects/datastructure/simulator.h
+
